@@ -1,9 +1,3 @@
-kubectl delete deploy newdep nginx-deployment
-kubectl delete service my-service newdep
-kubectl delete ing example-ingress
-kubectl create -f deploy.yaml
-kubectl create -f ser.yaml
-kubectl create -f deploy2.yaml
-kubectl create -f ser2.yaml
-kubectl create -f gni.yaml
-kubectl create -f ng1.yaml
+ssh root@44.200.130.239 "
+kubect get svc
+"
