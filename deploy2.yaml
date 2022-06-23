@@ -8,7 +8,7 @@ metadata:
 
   labels:
 
-    app: nginx2
+    app: nginx
 
 spec:
 
@@ -18,7 +18,7 @@ spec:
 
     matchLabels:
 
-      app: nginx2
+      app: nginx
 
   template:
 
@@ -26,13 +26,13 @@ spec:
 
       labels:
 
-        app: nginx2
+        app: nginx
 
     spec:
 
       containers:
 
-      - name: nginx2
+      - name: nginx
 
         image: public.ecr.aws/o5n4a2g6/nginx1:v2
 
