@@ -4,7 +4,7 @@ kind: Deployment
 
 metadata:
 
-  name: newdep
+  name: nginx-deployment2
 
   labels:
 
