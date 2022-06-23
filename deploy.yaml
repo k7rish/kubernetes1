@@ -34,8 +34,7 @@ spec:
 
       - name: nginx
 
-        image: public.ecr.aws/o5n4a2g6/nginx1:v1
-
+        image: public.ecr.aws/o5n4a2g6/nginx2:v1
         ports:
 
         - containerPort: 80
